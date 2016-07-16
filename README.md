@@ -1,6 +1,6 @@
 # LaravelBundle
 
-<img src="/src/Resources/doc/img/fallback.png" alt="LaravelFallback" />
+<img src="/Resources/doc/img/fallback.png" alt="LaravelFallback" />
 
 
 [![Build Status](https://travis-ci.org/polidog/LaravelBundle.svg?branch=master)](https://travis-ci.org/polidog/LaravelBundle)
