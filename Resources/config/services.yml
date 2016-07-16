@@ -1,0 +1,21 @@
+services:
+    polidog_laravel_fallback.controller.fallback:
+        class: Polidog\LaravelBundle\Controller\FallbackController
+        arguments:
+            - "@polidog_laravel_fallback.environment"
+            - "@polidog_laravel_fallback.laravel_kernel"
+
+    polidog_laravel_fallback.environment:
+        class: Polidog\LaravelBundle\Environment
+        arguments:
+            - "%polidog_laravel_fallback.env%"
+
+    polidog_laravel_fallback.laravel_kernel:
+        class: Polidog\LaravelBundle\LaravelKernel
+        arguments:
+            - "@polidog_laravel_fallback.bootstrap"
+
+    polidog_laravel_fallback.bootstrap:
+        class: Polidog\LaravelBundle\Bootstrap
+        arguments:
+            - "%polidog_laravel_fallback.bootstrap_file%"

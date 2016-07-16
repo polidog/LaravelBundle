@@ -1,0 +1,28 @@
+{
+    "name": "polidog/laravel-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "polidog",
+            "email": "polidogs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4",
+        "symfony/http-foundation": "~2.3",
+        "symfony/framework-bundle": "~2.3",
+        "sensio/framework-extra-bundle": "~3.0",
+
+        "laravel/framework": "~5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "phake/phake": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polidog\\LaravelBundle\\": ""
+        }
+    }
+}
