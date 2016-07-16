@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('laravel_fallback');
+        $rootNode = $treeBuilder->root('polidog_laravel');
         $rootNode
             ->children()
                 ->scalarNode('bootstrap_file')->isRequired()->end()
