@@ -13,7 +13,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Illuminate\Http\Request as IlluminateRequest;
 
 /**
- * @Route(service="polidog_laravel_fallback.controller.fallback")
+ * @Route(service="polidog_laravel.controller.fallback")
  */
 class FallbackController
 {

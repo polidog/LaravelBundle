@@ -22,8 +22,8 @@ class PolidogLaravelExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('polidog_laravel_fallback.bootstrap_file', $config['bootstrap_file']);
-        $container->setParameter('polidog_laravel_fallback.env', $config['env']);
+        $container->setParameter('polidog_laravel.bootstrap_file', $config['bootstrap_file']);
+        $container->setParameter('polidog_laravel.env', $config['env']);
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
     }
