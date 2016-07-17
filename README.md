@@ -32,7 +32,7 @@ Configuration in config.yml:
 
 ```
 polidog_laravel:
-  bootstrap_file: "%kernel.root_dir%/../vendor/polidog/laravel-project/bootstrap/app.php"
+  bootstrap_file: "%kernel.root_dir%/../vendor/polidog/laravel-project/bootstrap/app.php" #your laravel project for bootstrap/app.php
   env:
     APP_DEBUG: true
     APP_KEY: laravelKey
@@ -49,3 +49,7 @@ fallback:
         path: .*
 ```
 
+
+## example
+
+see [polidog/laravel-bundle-example](https://github.com/polidog/laravel-bundle-example)
