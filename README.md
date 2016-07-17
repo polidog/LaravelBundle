@@ -17,7 +17,7 @@
 
 - PHP 5.6+
 - Symfony 2.3+
-- Laravel 5.1+
+- Laravel 5.2+
 
 ## Installation
 
