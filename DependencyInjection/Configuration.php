@@ -27,24 +27,7 @@ class Configuration implements ConfigurationInterface
                     ->prototype('scalar')
                     ->end()
                 ->end()
-            ->end()
-//        $rootNode
-//            ->children()
-//                ->arrayNode('env')
-//                    ->prototype('array')
-//                        ->children()
-//                            ->scalarNode('key')->end()
-//                            ->scalarNode('value')->end()
-//                        ->end()
-//                    ->end()
-//                ->end()
-//            ->end()
-            ;
-
-
-        // Here you should define the parameters that are allowed to
-        // configure your bundle. See the documentation linked above for
-        // more information on that topic.
+            ->end();
 
         return $treeBuilder;
     }
