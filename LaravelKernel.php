@@ -25,7 +25,7 @@ class LaravelKernel implements Kernel
     /**
      * LaravelKernel constructor.
      *
-     * @param string $bootstrapFile
+     * @param string $bootstrap
      */
     public function __construct(Bootstrap $bootstrap)
     {
